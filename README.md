@@ -1,5 +1,3 @@
-![Reconnaisance|🔂](https://img.shields.io/badge/Reconnaisance-🔂-green.svg)
-![python|3.x](https://img.shields.io/badge/python-3.x-blue.svg)
 <h1 align="center">
     <br>
     <a href="https://github.com/jaxBCD/ReconT">
@@ -68,10 +66,10 @@
  ```
 
 ##### Info
- Support For Python Version: ```3.x```
- ReconT Version: ```0.1```
- By: ```407 Authentic Exploit ```
- Codename: ```JaxBCD```
+ Support For Python Version: ```3.x```<br>
+ ReconT Version: ```0.1```<br>
+ By: ```407 Authentic Exploit ```<br>
+ Codename: ```JaxBCD```<br>
  
 
 
