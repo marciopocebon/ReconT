@@ -12,8 +12,8 @@
       <img src="https://img.shields.io/badge/👣-Recon--T-green.svg">
    </a>
    
-   <a href="https://img.shields.io/badge/python-3.x-blue.svg">
-      <img src="https://www.python.org">
+   <a href="https://www.python.org">
+      <img src="https://img.shields.io/badge/python-3.x-blue.svg">
    </a>
 </p>
 
