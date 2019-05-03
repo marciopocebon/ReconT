@@ -1,7 +1,7 @@
 <h1 align="center">
     <br>
     <a href="https://github.com/jaxBCD/ReconT">
-    <img src="src/utils/reconT.png" alt="ReconT">
+    <img src="src/utils/reconT.png" alt="ReconT" width="250" height="250">
     </a>
     <br>    
 </h1>
