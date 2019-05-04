@@ -55,9 +55,9 @@ def set_proxy(x):
         if x != None:
            return {'http':x,'https':x}
         else:
-           return None,None
+           return None
     except Exception:
-        return None,None
+        return None
 
 @click.command()
 @click.argument('target')
