@@ -5,10 +5,7 @@ from .user_agent import useragent as uag
 class request_handler(object):
 
       def __init__(self,proxy=None,cookie=None,timeout=7):
-         self.is_proxy = {
-            'http':proxy,
-            'https':proxy
-         }
+         self.is_proxy = proxy
          self.cookie = cookie
          self.timeout = timeout
 
