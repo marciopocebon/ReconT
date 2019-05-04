@@ -53,7 +53,7 @@ def set_cookie(x):
 def set_proxy(x):
     try:
         if x != None:
-           return {'http':x,'https':x},'http://{}'.format(x)
+           return {'http':x,'https':x}
         else:
            return None,None
     except Exception:
@@ -76,7 +76,7 @@ def main(target,timeout,proxy,cookies):
         kue = set_cookie(cookies)
         proxies = set_proxy(proxy)
         res = request_handler(
-            proxy=proxies[0],
+            proxy=proxies,
             cookie=kue,
             timeout=timeout
         ).send(
@@ -105,7 +105,7 @@ def main(target,timeout,proxy,cookies):
         port_scan(target).nmap()
         print(batas)
         log.log(50,'Collecting Information Disclosure!')
-        dd = disc(target,cookie=kue,proxy=proxies[0],timeout=timeout)
+        dd = disc(target,cookie=kue,proxy=proxies,timeout=timeout)
         dd.mail()
         dd.phone()
         dd.cc()
