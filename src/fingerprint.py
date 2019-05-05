@@ -21,7 +21,6 @@ class waf(object):
           for var,val in self._name().items():
               mtd = val(self.respon)
               if mtd:
-                 self.bNer += 'ada'
                  self.kasih_tahu(var)
 
       def _name(self):
