@@ -36,7 +36,7 @@ class extractor(object):
                     insert_link.append(i)
              return insert_link 
           else:
-             return None
+             return []
              
       def dom(self):
           dom = self.p.dom(self.links)
